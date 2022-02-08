@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T05:41:13.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0Cfn4_-f7f-sXg9PbIAm" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T05:45:43.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="goetlBsUXeHUERGLze6e" version="16.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,11 +80,11 @@
         <mxCell id="sb0w1vTnHdka-BvZRF65-0" value="文件上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;perimeterSpacing=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="10" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sb0w1vTnHdka-BvZRF65-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sb0w1vTnHdka-BvZRF65-22">
+        <mxCell id="sb0w1vTnHdka-BvZRF65-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sb0w1vTnHdka-BvZRF65-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="590" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="430" y="590" />
+              <mxPoint x="440" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -112,11 +112,15 @@
         <mxCell id="sb0w1vTnHdka-BvZRF65-16" value="&lt;span&gt;该文件是否上传成功&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="175" y="550" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sb0w1vTnHdka-BvZRF65-21" value="成功上传文件到服务器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="sb0w1vTnHdka-BvZRF65-21" value="成功" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270" y="880" width="189" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sb0w1vTnHdka-BvZRF65-22" target="sb0w1vTnHdka-BvZRF65-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="710" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-28" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sb0w1vTnHdka-BvZRF65-26">
           <mxGeometry x="-0.35" y="-1" relative="1" as="geometry">
@@ -126,8 +130,13 @@
         <mxCell id="sb0w1vTnHdka-BvZRF65-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sb0w1vTnHdka-BvZRF65-22" target="sb0w1vTnHdka-BvZRF65-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sb0w1vTnHdka-BvZRF65-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sb0w1vTnHdka-BvZRF65-34">
+          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-22" value="&lt;span&gt;该分片是否已经上传成功&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="550" width="80" height="80" as="geometry" />
+          <mxGeometry x="400" y="620" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-24" value="&lt;span&gt;是否之前存在网络等故障、或者手动暂停后继续上传&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="309" y="540" width="100" height="100" as="geometry" />
@@ -159,11 +168,6 @@
         </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-31" value="组合分片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="780" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sb0w1vTnHdka-BvZRF65-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#7F00FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sb0w1vTnHdka-BvZRF65-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="660" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="sb0w1vTnHdka-BvZRF65-33" value="上传分片" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="660" y="570" width="100" height="40" as="geometry" />
